@@ -5,11 +5,11 @@
  * 2. Complexity O(n * k * log(n));
  * 3. You can iterate over the segments like in Mo's, moving lo and hi over the segments
  **/
-template <class T> struct DivideDP {
+template <class T> struct DivideAndConquer{
 	vector <T> dp, dp_prev, a;
 	int n, k;
 	T totalCost;
-	DivideDP (int n, int k, vector <T> a) : n(n), k(k), a(a) {
+	DivideAndConquer(int n, int k, vector <T> a) : n(n), k(k), a(a) {
 		dp_prev.resize(n);
 		dp.resize(n);
 		totalCost = 0;

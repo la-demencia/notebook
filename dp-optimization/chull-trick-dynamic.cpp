@@ -1,4 +1,3 @@
-
 typedef ll tc;
 const tc is_query=-(1LL<<62); // special value for query
 struct Line {
