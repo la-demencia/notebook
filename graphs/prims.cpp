@@ -1,3 +1,5 @@
+//Time complexity: O(E log(V))
+
 const ll oo = numeric_limits<ll>::max();
 
 const int MAXN = 100000;
