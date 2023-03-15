@@ -4,10 +4,6 @@ using namespace std;
 # define io_boost ios_base::sync_with_stdio(0);cin.tie(0);
 using ull = unsigned long long;
 using ll = long long;
-/*
-    Que mira bobo ? 
-    JUANKI
-*/
 
 /**
  *  STATEMENT: You are given a tree with N nodes. The tree nodes are numbered from 1 to N. Each node has an integer weight.
